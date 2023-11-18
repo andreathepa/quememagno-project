@@ -1,0 +1,49 @@
+@import '/node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'LibreBaskerville-Regular';
+    src: url('../../public/font/LibreBaskerville-Regular.ttf') format('truetype');
+    /* Aggiungi altri formati di file del font, se necessario */
+    font-weight: normal;
+    font-style: normal;
+}
+
+main{
+
+    font-family: 'LibreBaskerville-Regular';    
+    color: #0A5247;
+}
+
+
+.text-color-green{
+    color: #0A5247;
+
+}
+
+.bg-green{
+    background-color:#BFD202;
+}
+
+.bg-gray{
+    background-color: #F8F4ED;
+}
+
+.bg-yellow{
+    background-color: #FFC643;
+}
+
+.temporary-img img {
+    transition: transform 0.3s; /* Aggiungi una transizione per un effetto più fluido */
+  }
+  
+  /* Stile durante l'hover */
+.temporary-img img:hover {
+    transform: scale(1.1); /* Aumenta la scala dell'immagine del 10% durante l'hover */
+  }
